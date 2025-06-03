@@ -1,0 +1,6 @@
+<resources>
+    <!-- Базовый серый цвет для невыделенного элемента -->
+    <color name="item_default_gray">#FFB0B0B0</color>
+    <!-- Фиолетовый цвет для выделенного элемента -->
+    <color name="item_selected_purple">#FF8F00FF</color>
+</resources> 
