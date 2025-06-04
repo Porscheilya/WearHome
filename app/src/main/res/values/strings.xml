@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">WearHome</string>
+    <string name="yandex_client_id">2472ece1ff5d4a29a71d20e43ecb51b3</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.

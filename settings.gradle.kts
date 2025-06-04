@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "WearHome"
 include(":app")
+include(":mobile")
  

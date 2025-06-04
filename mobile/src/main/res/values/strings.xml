@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WearHome Companion</string>
+    <string name="login_yandex">Войти через Yandex</string>
+    <string name="login_success">Авторизация успешна!</string>
+    <string name="login_error">Ошибка авторизации</string>
+    <string name="sending_to_watch">Отправка данных на часы...</string>
+    <string name="sent_to_watch">Данные отправлены на часы</string>
+    <string name="no_watch_connected">Часы не подключены</string>
+    <string name="test_connection">Проверить связь с часами</string>
+</resources>

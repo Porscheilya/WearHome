@@ -1,0 +1,320 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.porscheilya.wearhome.mobile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+12-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:6:5-88
+12-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:6:22-85
+13
+14    <queries>
+14-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:8:5-27:15
+15        <intent>
+15-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:9:9-13:18
+16            <action android:name="android.intent.action.VIEW" />
+16-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:10:13-65
+16-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:10:21-62
+17
+18            <data android:scheme="https" />
+18-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:17-64
+18-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:23-44
+19        </intent>
+20        <intent>
+20-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:14:9-16:18
+21            <action android:name="com.yandex.auth.action.YA_SDK_LOGIN" />
+21-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:15:13-74
+21-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:15:21-71
+22        </intent>
+23
+24        <package android:name="com.yandex.browser" /> <!-- Яндекс браузер -->
+24-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:18:9-54
+24-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:18:18-51
+25        <package android:name="ru.yandex.searchplugin" /> <!-- Яндекс Старт -->
+25-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:19:9-58
+25-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:19:18-55
+26        <package android:name="com.yandex.searchapp" /> <!-- Яндекс с Алисой -->
+26-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:20:9-56
+26-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:20:18-53
+27        <package android:name="ru.yandex.taxi" /> <!-- Яндекс GO -->
+27-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:21:9-50
+27-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:21:18-47
+28        <package android:name="ru.yandex.mail" /> <!-- Яндекс Почта -->
+28-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:22:9-50
+28-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:22:18-47
+29        <package android:name="ru.yandex.disk" /> <!-- Яндекс Диск -->
+29-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:23:9-50
+29-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:23:18-47
+30        <package android:name="com.yandex.bank" /> <!-- Яндекс Банк -->
+30-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:24:9-51
+30-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:24:18-48
+31        <package android:name="ru.yandex.key" /> <!-- Яндекс Ключ -->
+31-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:25:9-49
+31-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:25:18-46
+32        <package android:name="ru.yandex.auth.client" /> <!-- Семпл АМа -->
+32-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:26:9-57
+32-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:26:18-54
+33    </queries>
+34
+35    <permission
+35-->[androidx.core:core:1.12.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\91010f6e6f3658e33a1a20299e833b09\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+36        android:name="com.porscheilya.wearhome.mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.12.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\91010f6e6f3658e33a1a20299e833b09\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.12.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\91010f6e6f3658e33a1a20299e833b09\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.porscheilya.wearhome.mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.12.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\91010f6e6f3658e33a1a20299e833b09\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.12.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\91010f6e6f3658e33a1a20299e833b09\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:8:5-42:19
+42        android:allowBackup="true"
+42-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:9:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.12.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\91010f6e6f3658e33a1a20299e833b09\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+44        android:dataExtractionRules="@xml/data_extraction_rules"
+44-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:10:9-65
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:fullBackupContent="@xml/backup_rules"
+47-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:11:9-54
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:12:9-43
+49        android:label="@string/app_name"
+49-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:13:9-41
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:14:9-54
+51        android:supportsRtl="true"
+51-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:14:62-88
+52        android:testOnly="true"
+53        android:theme="@style/Theme.WearHome" >
+53-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:15:9-46
+54        <meta-data
+55            android:name="com.yandex.auth.CLIENT_ID"
+55-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:19:13-53
+56            android:value="2472ece1ff5d4a29a71d20e43ecb51b3" />
+56-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:20:13-48
+57
+58        <activity
+58-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:22:9-30:20
+59            android:name="com.porscheilya.wearhome.mobile.MainActivity"
+59-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:23:13-41
+60            android:exported="true" >
+60-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:24:13-36
+61            <intent-filter>
+61-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:25:13-29:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:26:17-69
+62-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:26:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:28:17-77
+64-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:28:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <service
+68-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:30:30-41:19
+69            android:name="com.porscheilya.wearhome.mobile.DataLayerService"
+69-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:31:13-45
+70            android:exported="false" >
+70-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:32:13-37
+71            <intent-filter>
+71-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:33:13-37:29
+72                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+72-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:34:17-91
+72-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:34:25-88
+73                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+73-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:35:17-87
+73-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:35:25-84
+74
+75                <data
+75-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:17-64
+76                    android:host="*"
+76-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:45-61
+77                    android:scheme="wear" />
+77-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:23-44
+78            </intent-filter>
+79
+80            <meta-data
+80-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:38:13-40:40
+81                android:name="com.google.android.gms.wearable.BIND_LISTENER"
+81-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:39:17-77
+82                android:value="true" />
+82-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:40:17-37
+83        </service>
+84
+85        <activity
+85-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:30:9-33:64
+86            android:name="com.yandex.authsdk.internal.AuthSdkActivity"
+86-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:31:13-71
+87            android:label=""
+87-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:32:13-29
+88            android:theme="@style/Theme.AuthSdk.Transparent" />
+88-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:33:13-61
+89        <activity
+89-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:34:9-37:64
+90            android:name="com.yandex.authsdk.internal.ChromeTabLoginActivity"
+90-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:35:13-78
+91            android:launchMode="singleTop"
+91-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:36:13-43
+92            android:theme="@style/Theme.AuthSdk.Transparent" />
+92-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:37:13-61
+93        <activity
+93-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:38:9-41:52
+94            android:name="com.yandex.authsdk.internal.WebViewLoginActivity"
+94-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:39:13-76
+95            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+95-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:40:13-83
+96            android:theme="@style/Theme.AuthSdk" />
+96-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:41:13-49
+97        <activity
+97-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:42:9-70:20
+98            android:name="com.yandex.authsdk.internal.ChromeTabDataActivity"
+98-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:43:13-77
+99            android:exported="true"
+99-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:44:13-36
+100            android:theme="@style/Theme.AuthSdk.Transparent" >
+100-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:45:13-61
+101            <intent-filter android:autoVerify="true" >
+101-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:46:13-58:29
+101-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:47:17-42
+102                <action android:name="android.intent.action.VIEW" />
+102-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:10:13-65
+102-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:10:21-62
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:51:17-76
+104-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:51:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:52:17-78
+105-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:52:27-75
+106
+107                <data
+107-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:17-64
+108                    android:host="yx2472ece1ff5d4a29a71d20e43ecb51b3.oauth.yandex.ru"
+108-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:45-61
+109                    android:path="/auth/finish"
+110                    android:scheme="https" />
+110-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:23-44
+111            </intent-filter>
+112            <intent-filter>
+112-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:59:13-69:29
+113                <action android:name="android.intent.action.VIEW" />
+113-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:10:13-65
+113-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:10:21-62
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:51:17-76
+115-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:51:27-73
+116                <category android:name="android.intent.category.BROWSABLE" />
+116-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:52:17-78
+116-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:52:27-75
+117
+118                <data
+118-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:17-64
+119                    android:path="/auth/finish"
+120                    android:scheme="yx2472ece1ff5d4a29a71d20e43ecb51b3" />
+120-->C:\Users\porsc\AndroidStudioProjects\WearHome2\mobile\src\main\AndroidManifest.xml:36:23-44
+121            </intent-filter>
+122        </activity>
+123
+124        <meta-data
+124-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:75:9-77:47
+125            android:name="com.yandex.auth.OAUTH_HOST"
+125-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:76:13-54
+126            android:value="oauth.yandex.ru" />
+126-->[com.yandex.android:authsdk:3.1.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\db92754eab08458e06d80c6c963d233e\transformed\authsdk-3.1.0\AndroidManifest.xml:77:13-44
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\176b5ed9b9fcb0a0963e077aab428165\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\176b5ed9b9fcb0a0963e077aab428165\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+130            android:authorities="com.porscheilya.wearhome.mobile.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\176b5ed9b9fcb0a0963e077aab428165\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\176b5ed9b9fcb0a0963e077aab428165\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\176b5ed9b9fcb0a0963e077aab428165\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\176b5ed9b9fcb0a0963e077aab428165\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\176b5ed9b9fcb0a0963e077aab428165\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\porsc\.gradle\caches\8.11.1\transforms\e837555c2da3fda6b5edf283db2a2d24\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\porsc\.gradle\caches\8.11.1\transforms\e837555c2da3fda6b5edf283db2a2d24\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\porsc\.gradle\caches\8.11.1\transforms\e837555c2da3fda6b5edf283db2a2d24\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+140                android:value="androidx.startup" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+141        </provider>
+142
+143        <activity
+143-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\porsc\.gradle\caches\8.11.1\transforms\8d4361bf6c653233bec20fdbf76ad3e8\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+144-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\porsc\.gradle\caches\8.11.1\transforms\8d4361bf6c653233bec20fdbf76ad3e8\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\porsc\.gradle\caches\8.11.1\transforms\8d4361bf6c653233bec20fdbf76ad3e8\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\porsc\.gradle\caches\8.11.1\transforms\8d4361bf6c653233bec20fdbf76ad3e8\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\0acd5b76aeabc813622d8d7f122b485f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\0acd5b76aeabc813622d8d7f122b485f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\0acd5b76aeabc813622d8d7f122b485f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+151
+152        <receiver
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+153            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+154            android:directBootAware="false"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+155            android:enabled="true"
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+156            android:exported="true"
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+157            android:permission="android.permission.DUMP" >
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+159                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+160            </intent-filter>
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+162                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+163            </intent-filter>
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+165                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+166            </intent-filter>
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+168                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\porsc\.gradle\caches\8.11.1\transforms\5c975b335eaf9589242924d49ee2da88\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+169            </intent-filter>
+170        </receiver>
+171    </application>
+172
+173</manifest>
